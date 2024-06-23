@@ -1,16 +1,28 @@
-# flpy
+# FLAPPY BIRD
 
-A new Flutter project.
+There are many game development platform's available in our community.Flame is a 2D game development engine from flutter and it is quiet simple to understand.
 
-## Getting Started
+## GAME SCREENSHOTS
+Starting page
+<br>
+  ![Starting page](https://github.com/akhil-bhaskaran/Flappy-Bird/assets/148350824/3c4986e4-003f-4d1c-a6f2-6b68d49f1d77)
 
-This project is a starting point for a Flutter application.
+<br>
+Playing
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot 2024-06-22 132938](https://github.com/akhil-bhaskaran/Flappy-Bird/assets/148350824/1a097cca-9634-44d1-87df-aa8574cb6593)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<br>
+Game Over Screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  ![Screenshot 2024-06-22 132455](https://github.com/akhil-bhaskaran/Flappy-Bird/assets/148350824/b5393e5c-3ca8-4e1d-a487-819f8e7235eb)
+
+
+
+
+
+
+
+
+
+
