@@ -5,14 +5,13 @@ import 'package:flpy/falppy_bird.dart';
 import 'package:flpy/utils/assets.dart';
 import 'package:flpy/utils/configs.dart';
 
-class Clouds extends ParallaxComponent<FlappyBird>
-    with HasGameRef<FlappyBird> {
+class Clouds extends ParallaxComponent<FlappyBird> with HasGameRef<FlappyBird> {
   Clouds();
 
   @override
   Future<void> onLoad() async {
     final image = await Flame.images.load(Assets.clouds);
-    position = Vector2(x, -(gameRef.size.y - Config.cloudsHeight));
+    // position = Vector2(0, -(gameRef.size.y - Config.cloudsHeight));
     parallax = Parallax([
       ParallaxLayer(
         ParallaxImage(image, fill: LayerFill.none),

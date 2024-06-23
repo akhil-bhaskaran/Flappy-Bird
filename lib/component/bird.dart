@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
 import 'package:flame/effects.dart';
-
+import 'package:flame_audio/flame_audio.dart';
 import 'package:flpy/falppy_bird.dart';
 import 'package:flpy/utils/assets.dart';
 import 'package:flpy/utils/configs.dart';

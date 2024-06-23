@@ -9,6 +9,7 @@ import 'package:flpy/component/cloud.dart';
 import 'package:flpy/component/ground.dart';
 import 'package:flpy/component/pipe_set.dart';
 import 'package:flpy/utils/configs.dart';
+import 'package:flutter/material.dart';
 
 class FlappyBird extends FlameGame with TapDetector, HasCollisionDetection {
   FlappyBird();
@@ -22,7 +23,7 @@ class FlappyBird extends FlameGame with TapDetector, HasCollisionDetection {
     addAll([
       Background(),
       Ground(),
-      Clouds(),
+      // Clouds(),
       bird = Bird(),
       score = buildScore(),
     ]);
@@ -35,9 +36,9 @@ class FlappyBird extends FlameGame with TapDetector, HasCollisionDetection {
         position: Vector2(size.x / 2, size.y / 2 * 0.2),
         anchor: Anchor.center,
         textRenderer: TextPaint(
-            // style:  TextStyle(
-            //     fontSize: 40, fontFamily: 'Game', fontWeight: FontWeight.bold),
-            ));
+          style: const TextStyle(
+              fontSize: 40, fontFamily: 'Game', fontWeight: FontWeight.bold),
+        ));
   }
 
   @override
