@@ -5,6 +5,7 @@ import 'package:flame/events.dart';
 import 'package:flame/game.dart';
 import 'package:flpy/component/background.dart';
 import 'package:flpy/component/bird.dart';
+import 'package:flpy/component/cloud.dart';
 import 'package:flpy/component/ground.dart';
 import 'package:flpy/component/pipe_set.dart';
 import 'package:flpy/utils/configs.dart';
@@ -21,6 +22,7 @@ class FlappyBird extends FlameGame with TapDetector, HasCollisionDetection {
     addAll([
       Background(),
       Ground(),
+      Clouds(),
       bird = Bird(),
       score = buildScore(),
     ]);
