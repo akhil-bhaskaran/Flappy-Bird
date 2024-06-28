@@ -17,6 +17,9 @@ Game Over Screen
 
   ![Screenshot 2024-06-22 132455](https://github.com/akhil-bhaskaran/Flappy-Bird/assets/148350824/b5393e5c-3ca8-4e1d-a487-819f8e7235eb)
 
+<br>
+<br>
+https://github.com/akhil-bhaskaran/Flappy-Bird/assets/148350824/b47e9fea-08f4-44fd-8f27-c46450bb632f
 
 
 
